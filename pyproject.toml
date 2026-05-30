@@ -2,6 +2,8 @@
 name = "mbcli"
 version = "0.1.0"
 description = "Read Mercedes me vehicle status (SoC, range, mileage, tire pressure) by reusing a browser session."
+readme = "README.md"
+license = "MIT"
 requires-python = ">=3.10"
 dependencies = [
     "playwright>=1.40",
@@ -11,7 +13,7 @@ dependencies = [
 mbcli = "mbcli.cli:main"
 
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]

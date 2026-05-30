@@ -195,3 +195,7 @@ python -m pytest tests/ -q
 ```
 
 Tested on Python 3.14, Playwright 1.60, Google Chrome 148 (macOS).
+
+## License
+
+[MIT](LICENSE) © Thomas Chung
