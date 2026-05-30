@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+# local machine-specific Claude Code settings (home paths, command allowlist)
+.claude/settings.local.json
+
+# never commit a session, credentials, browser profile, or raw vehicle data
+credentials.json
+api.json
+vehicles.json
+.logged-in
+captures/
+chrome-profile/
